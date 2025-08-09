@@ -20,6 +20,7 @@ app.use(cors({
 }));
 app.use(express.json());
 app.use(express.static('.')); // Serve static files from current directory
+app.use('/logo', express.static('public/logo/tdlogo.png'));
 
 // Validation function
 function validateEmail(email) {

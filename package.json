@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
+    "build": "echo 'Build complete - ready for Vercel deployment'",
+    "vercel-build": "echo 'Vercel build complete'",
     "test": "node -e \"console.log('Server test - run npm start to begin')\"",
     "setup": "npm install && echo '✅ Setup complete! Create .env file and run npm start'"
   },
